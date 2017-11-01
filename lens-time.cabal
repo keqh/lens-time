@@ -16,4 +16,6 @@ cabal-version:       >=1.8
 
 library
   exposed-modules:     Data.Time.Lens
-  build-depends:       base ==4.6.*, lens ==3.9.*, time ==1.4.*
+  build-depends:       base >= 4.6 && < 4.10
+                     , lens >= 3.9 && < 4.16
+                     , time >= 1.4 && < 1.7
